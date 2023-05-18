@@ -5,7 +5,17 @@ class Pessoa:
         self.idade=idade
         self.comendo=comendo
 
+    def comer(self):
+        print(f"{self.nome} está comendo")
+
+
+
+
 p1 = Pessoa("joão",80,19)
 p2 = Pessoa("Marta",56,22,comendo=True)
-print(vars(p2))
-print(vars(p1))
+
+p2.comer()
+
+
+#print(vars(p2))
+#print(p1.nome)
