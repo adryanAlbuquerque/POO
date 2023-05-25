@@ -6,7 +6,7 @@ class Pessoa:
         self.comendo=False
         self.andando=andar
         self.falando=falar
-
+''
     def comer(self,alimento):
         self.alimento=alimento
         if self.comendo==False:
